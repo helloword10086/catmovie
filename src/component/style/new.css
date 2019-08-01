@@ -1,0 +1,75 @@
+.most-expected {
+  padding: 12px 0 12px 15px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+.most-expected .title {
+  /* margin: 0 0 12px; */
+  font-size: 14px;
+  color: #333;
+}
+.most-expected-list {
+  overflow: scroll;
+  white-space: nowrap;
+}
+.expected-item {
+  display: inline-block;
+  width: 85px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.expected-item .poster {
+  width: 85px;
+  height: 115px;
+  position: relative;
+  margin-bottom: 6px;
+}
+.default-img-bg {
+  background-color: #e1e1e1;
+  background-size: 100% 100%;
+}
+.expected-item .poster img {
+  height: 100%;
+}
+.expected-item .poster .wish-bg {
+  display: inline-block;
+  width: 100%;
+  height: 35px;
+  position: absolute;
+  bottom: 0;
+  background-image: -webkit-linear-gradient(top,rgba(77,77,77,0),#000);
+  background-image: linear-gradient(-180deg,rgba(77,77,77,0),#000);
+}
+.expected-item .poster .wish {
+  position: absolute;
+  left: 4px;
+  bottom: 2px;
+  color: #faaf00;
+  font-size: 11px;
+  font-weight: 600;
+}
+.expected-item .poster .toggle-wish {
+  width: 28px;
+  line-height: 28px;
+  background: rgba(61,63,71,.6);
+  text-align: center;
+  border-bottom-right-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.expected-item .name {
+  margin: 0 0 3px;
+  font-size: 13px;
+  color: #222;
+}
+.line-ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.expected-item .date {
+  margin: 0;
+  font-size: 12px;
+  color: #999;
+}

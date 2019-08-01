@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+    <style id="fontface">
+      
+      @font-face {
+          font-family: stonefont;
+          src: url(data:application/font-woff;charset=utf-8;base64,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) format("woff");
+        }
+        .stonefont {
+          font-family: 'stonefont'!important;
+        }
+      
+
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>

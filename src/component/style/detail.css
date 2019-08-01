@@ -1,0 +1,189 @@
+.detail-body .detail-header{
+  height: 188px;
+  position: relative;
+}
+.detail-header .detail-bgc{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+}
+.detail-header .detail-bgcimg{
+  width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    -webkit-filter: blur(1.2rem);
+    filter: blur(1.2rem);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .55;
+    background: url('https://p0.meituan.net/128.180/moviemachine/7b9b0725ab5feae642e1fbba9fbb90fe3702078.jpg')
+}
+.detail-header-content{
+  height: 150px;
+  padding: 19px 30px 19px 15px;
+  display: flex;
+}
+.detail-header-content .detail-poster img{
+  width: 110px;
+  height: 150px;
+  box-sizing: border-box;
+}
+.detail-header-content .detail-content{
+  overflow-x: hidden;
+  margin-left: 12.5px;
+  line-height: 1;
+  color: #fff;
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+.detail-header-content .detail-title{
+  font-size: 20px;
+    margin-top: 2px;
+    font-weight: 700;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* overflow: hidden; */
+    white-space: nowrap;
+}
+.detail-header-content .detail-want{
+  font-size: 18px;
+    font-weight: 700;
+    color: #fc0;
+    margin-top: 11px;
+}
+.detail-want span{
+  margin-top: 10px;
+    font-size: 12px;
+    color: #fff;
+    opacity: .8;
+}
+.detail-3d{
+  margin-top: 10px;
+  font-size: 12px;
+  color: #fff;
+  /* opacity: .8; */
+  width: 42px;
+    opacity: .85;
+}
+.detail-header-content .detail-time{
+  margin-top: 10px;
+  font-size: 12px;
+  color: #fff;
+  opacity: .8;
+  text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.detail-cinema{
+  background-color: #fff
+}
+.detail-cinema .cinema-item{
+  padding: 13px 15px 13px 0;
+  margin-left: 15px;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid #999
+}
+
+.detail-cinema .cinema-content.cinema-title{
+  height: 23px;
+  line-height: 23px;
+  font-size: 16px;
+  color: #000;
+  text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.cinema-price{
+  padding-top: 9px;
+  padding-left: 3px;
+  line-height: 1.5;
+  color: #f03d37;
+}
+.cinema-price .price{
+  font-size: 18px;
+}
+.cinema-price .price-co{
+  margin-left: 3px;
+  font-size: 11px;
+}
+.cinema-address{
+  margin-top: 6px;
+  font-size: 13px;
+  color: #666;
+  display: flex;
+}
+.cinema-address .detail-address{
+  -webkit-box-flex: 1;
+  flex: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.cinema-long{
+  margin-left: 5px;
+}
+.label-block {
+  height: 17px;
+  line-height: 17px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  overflow: hidden;
+  font-size: 0;
+  flex-shrink: 0;
+}
+.label-block>div {
+  position: relative;
+  display: inline-block;
+  padding: 0 3px;
+  height: 15px;
+  line-height: 15px;
+  border-radius: 2px;
+  font-size: .6rem;
+}
+.allowRefund , .endorse{
+  color: #589daf;
+  border: 1px solid #589daf;
+  margin-left: 5px;
+} 
+.snack{
+  color: #f90;
+  border: 1px solid #f90;
+  margin-left: 5px;
+}
+.nearlytime{
+  padding: 0 15px 0 0;
+  margin-right: -15px;
+  line-height: 1.5;
+  font-size: 0;
+}
+.nearlytime span{
+  font-size: 12px;
+  color: #999;
+  margin-left: 5px;
+}
+.detail-body .scroll-view{
+  height: 65vh;
+  overflow: hidden;
+}
+.nocinema{
+   width: 50%;
+    padding-top: 50px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.nocinema img{
+  width: 100%;
+  height: 100%;
+}
+.nocinema-title{
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+
+}

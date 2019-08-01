@@ -1,0 +1,167 @@
+.item {
+  padding-left: 15px;
+  background-color: #fff;
+  
+}
+.main-block{
+  position: relative;
+    width: 95%;
+    overflow: hidden;
+    
+    border-bottom: 1px solid #D8D6D6
+}
+.avatar {
+  width: 64px;
+  height: 90px;
+  position: relative;
+  margin-top: 12px;
+  float: left;
+}
+.default-img-bg {
+  background-color: #e1e1e1;
+  background-size: 100% 100%;
+}
+.avatar:before {
+  display: block;
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.content-wrapper {
+  padding: 12px 14px 12px 0;
+  margin-left: 74px;
+  height: 90px;
+  max-height: 90px;
+  /* position: relative; */
+  width: 200px;
+}
+.avatar img {
+  background-color: transparent;
+  height: 90px;
+}
+ .item .content {
+  padding-right: 5px;
+  margin-right: 48px;
+  overflow: hidden;
+}
+.item .movie-title {
+  max-height: 24px;
+  margin-bottom: 7px;
+  line-height: 24px;
+  overflow: hidden;
+}
+.item .title {
+  font-size: 17px;
+  color: #333;
+  font-weight: 700;
+  padding-right: 5px;
+  flex-shrink: 1;
+}
+.line-ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.version.v3d.imax {
+  width: 43px;
+  /* background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFYAAAAcCAYAAAD7lUj9AAAAAXNSR…pZ7dAhhqXuv1bz4Acb/GsYUfmFfmI0dGDh/rBU6SdGfwHhesSi+VnXOAAAAABJRU5ErkJggg==); */
+}
+.version {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 14px;
+  width: 17px;
+  display: inline-block;
+  margin-top: 5px;
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+  margin-right: 3px;
+}
+.item .detail {
+  box-sizing: border-box;
+  line-height: 1;
+  overflow: hidden;
+}
+.line-ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.item .detail .wantsee .person {
+  color: #faaf00;
+  font-size: 15px;
+  font-weight: 600;
+}
+.item .detail .wantsee .p-suffix {
+  font-size: 13px;
+  margin-left: -2px;
+  display: inline-block;
+  color: #666;
+}
+.detail .actor{
+  font-size: 13px;
+    color: #666;
+}
+.item .detail .show-info {
+  font-size: 13px;
+  color: #666;
+}
+.item .button-block {
+  font-size: 12px;
+  position: absolute;
+  right: 14px;
+  top: 0;
+  bottom: 0;
+  height: 27px;
+  margin: auto;
+}
+.item .button-block .btn.pre {
+  background-color: #3c9fe6;
+}
+.item .button-block .btn {
+  width: 47px;
+  height: 27px;
+  line-height: 28px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #f03d37;
+  color: #fff;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 12px;
+  cursor: pointer;
+  margin-right: 20px; 
+}
+.item .detail {
+  box-sizing: border-box;
+  line-height: 1;
+  overflow: hidden;
+}
+.item .button-block .pre {
+  width: 47px;
+  height: 27px;
+  line-height: 28px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color:  #3c9fe6;
+  color: #fff;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 12px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.pre .fix{
+  color: #fff;
+}
+.item .detail>div+div {
+  margin-top: 6px;
+  line-height: 15px;
+}
+.scroll-view{
+  height: 80vh;
+
+  overflow: hidden;
+}

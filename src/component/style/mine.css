@@ -1,0 +1,30 @@
+.my-login{
+  overflow: hidden;
+}
+.my-login .my-phone, .my-login .my-passwd{
+ width: 90%;
+ display: block;
+padding: 10px;
+ border-bottom: 1px solid #d6d6d6;
+ margin: 0 auto;
+
+}
+input{
+  border: 0;
+}
+.submit{
+   /* height: 100%; */
+   /* padding: 10px; */
+   /* width: 100%; */
+   margin: 10px;
+   background: red;
+   border: 0;
+   width: 90%;
+   text-align: center;
+   font-size: 16px;
+   color: #fff;
+   padding: 10px;
+   margin: 0 auto;
+   margin-top: 10px;
+   border-radius: 3px;
+}
